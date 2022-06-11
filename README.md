@@ -1,2 +1,3 @@
 # coursera
-Things I learnt form coursera
+Things I learnt form coursera 🏫
+Have a look 👀
