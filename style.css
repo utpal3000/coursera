@@ -11,13 +11,14 @@
     border-color: darkgoldenrod;
 }
 
+h2{font-size:-webkit-xxx-large}
 .menu:hover{border-color:red}.sub-menu:hover{border-color:#0ea44d;}
 nav ul ul{
   position: absolute;
   opacity: 0;
   visibility: hidden;
 }
-main{display: block;float: right;width: 80%;font-size: xx-large;}
+main{display: block;float: right;width: 100%;font-size: xx-large;height: 96vh;}
 nav ul li:hover > ul{
 
   opacity: 1;
@@ -29,9 +30,33 @@ nav ul li:hover > ul{
 /*just a comment
 9096966609*/
 .open{display: block;}.close{display: none;}
-nav{display: inline-block;width: 10%;}
-div{width:100%;height:100vh;}
-section{background: darkolivegreen;}
-#array{padding:5%;}#array > button {color: #493504;padding: 0.5em;padding-left:5%;opacity:0.8;border-radius: 10%;text-align: center;text-shadow: -3px 3px 3px black;border-color: burlywood;/* text-transform: capitalize; */}
+
+#array{width:100%;height:100vh;}
+section{background: darkolivegreen;height: -webkit-fill-available;}
+#array{padding: 10%;font-size: xxx-large;height: 100vh;}
+#array > button {
+      color: #493504;
+      padding: 0.5em;
+      padding-left: 35%;
+      opacity: 0.8;
+      padding-right: 35%;
+      border-radius: 30rem;
+      text-align: center;
+      /* text-shadow: -3px 3px 3px black; */
+      border-color: burlywood;
+      font-size: 1.5rem;
+      font-style: inherit;
+    }
 #array > button:hover{opacity:1;text-decoration:none;text-shadow:none;border-color:#e40e0e;}
-footer{clear:both;}
+footer{clear:both;background-color: floralwhite;height: 3.5em;}
+
+    color: #493504;
+    padding: 1.5em;
+    padding-left: 35%;
+    opacity: 0.8;
+    border-radius: 30rem;
+    text-align: center;
+    /* text-shadow: -3px 3px 3px black; */
+    border-color: burlywood;
+    /* text-transform: capitalize; */
+
